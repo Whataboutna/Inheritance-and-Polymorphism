@@ -1,6 +1,6 @@
  # Inheritance and Polymorphism
 
-Repositori ini berisi proyek Java untuk mempelajari **inheritance (pewarisan)** dan **polymorphism (polimorfisme)** dalam Pemrograman Berorientasi Objek (PBO). Baca kode sumber Java sebagai acuan utama untuk melihat kelas, relasi pewarisan, dan alur eksekusi yang diterapkan.
+Repositori ini berisi proyek Java untuk mempelajari **inheritance (pewarisan)** dan **polymorphism (polimorfisme)** dalam Pemrograman Berorientasi Objek (PBO).
 
 ## Tujuan
 
@@ -31,20 +31,7 @@ Polimorfisme memungkinkan objek turunan digunakan melalui referensi bertipe indu
 KelasInduk objek = new KelasTurunan();
 objek.metode();
 ```
-
-## Persyaratan
-
-- JDK terpasang dan dapat diakses dari terminal.
-- Editor atau IDE yang mendukung Java (opsional).
-
-Periksa instalasi dengan:
-
-```bash
-java -version
-javac -version
-```
-
-## Menjalankan
+## Run Program
 
 1. Buka direktori proyek di terminal atau IDE.
 2. Periksa berkas Java dan temukan kelas yang memiliki `public static void main(String[] args)`.
