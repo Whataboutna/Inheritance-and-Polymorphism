@@ -15,7 +15,7 @@ Repositori ini berisi proyek Java untuk mempelajari **inheritance (pewarisan)** 
 
 ### Inheritance
 
-Pewarisan memungkinkan kelas turunan memperoleh anggota kelas induk dan menambahkan perilaku yang lebih spesifik. Gunakan pewarisan untuk merepresentasikan hubungan *is-a*.
+Pewarisan memungkinkan kelas turunan memperoleh anggota kelas induk dan menambahkan perilaku yang lebih spesifik.
 
 ```java
 class KelasTurunan extends KelasInduk {
