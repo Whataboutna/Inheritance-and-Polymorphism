@@ -38,11 +38,11 @@ objek.metode();
 3. Kompilasikan berkas sumber sesuai struktur proyek. Untuk satu berkas tanpa deklarasi paket:
 
    ```bash
-   javac NamaKelas.java
-   java NamaKelas
+   javac MainBentuk.java
+   java MainBentuk
    ```
 
-Untuk beberapa berkas atau proyek yang menggunakan `package`, kompilasikan dari direktori sumber dengan struktur paket dan *classpath* yang sesuai. Ganti `NamaKelas` dengan nama kelas utama yang benar-benar tersedia di proyek.
+Untuk beberapa berkas atau proyek yang menggunakan `package`, kompilasikan dari direktori sumber dengan struktur paket dan *classpath* yang sesuai.
 
 ## Panduan Membaca Kode
 
@@ -51,7 +51,3 @@ Untuk beberapa berkas atau proyek yang menggunakan `package`, kompilasikan dari 
 3. Cari metode yang di-override dan bandingkan implementasinya.
 4. Telusuri pembuatan objek dan tipe referensi yang digunakan.
 5. Jalankan program, lalu hubungkan hasilnya dengan pemilihan metode saat runtime.
-
-## Catatan
-
-Perintah di atas merupakan pola umum Java. Nama kelas utama, nama berkas, deklarasi paket, serta cara kompilasi yang tepat mengikuti kode dan struktur berkas dalam proyek ini.
