@@ -1,4 +1,4 @@
-# Program Bentuk Geometri (PBO / Java)
+# INHERITANCE AND POLYMORPHISM - OOP
 
 Program Java interaktif ini dibuat untuk mengimplementasikan konsep-konsep dasar Pemrograman Berorientasi Objek (PBO) seperti **Encapsulation**, **Inheritance**, dan **Polymorphism** melalui pemrosesan bentuk geometri (Bujur Sangkar, Lingkaran, dan Silinder).
 
