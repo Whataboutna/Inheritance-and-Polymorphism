@@ -1,4 +1,4 @@
-public class Silinder extends Bentuk {
+public class Silinder extends Lingkaran {
     //atributnya
     private double tinggi;
 
@@ -19,11 +19,11 @@ public class Silinder extends Bentuk {
 
     //methods
     public double hitungVolume () {
-        return Lingkaran.phi * getRadius() * get.Tinggi;
+        return Lingkaran.phi * getRadius() * getTinggi();
     }
 
     @Override
     public void printInfo () {
-        System.out.println("Silinder Berwarna: " + this.warna + ", Volume: " + volume());
+        System.out.println("Silinder Berwarna: " + this.warna + ", Volume: " + hitungVolume());
     }
 }
